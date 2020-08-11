@@ -1,0 +1,161 @@
+.page{
+    width: 100%;  
+    /* margin:auto; */
+    font-family: Arial, Helvetica, sans-serif; 
+   
+   }
+   *{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+   
+  
+}
+   .infophoto{
+       display:inline-block;
+       height: 20%;
+       width: 100%;
+       background-color: rgb(0, 140, 255);
+       margin-top:0px;
+          }
+   .info{
+       float: left;
+      text-align: center;
+      padding-left: 400px;
+      padding-right: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+          }
+   .photo{
+   float: right;
+   }
+.section{
+    display:flex;
+    margin-bottom: 0px;
+    /* height: 80%; */
+   
+
+}
+.section-gauche{
+
+width: 30%;
+background-color: beige;
+   }
+   h3{
+    text-align: center;
+   
+   }
+.titre{
+    padding-left: 50px;
+}
+.coordonnées{
+    width: 30%;
+    padding-left: 90px;
+}
+
+
+.logiciels{
+    width: 180px;
+    margin: 30px ;
+    color: black;
+    padding-left: 60px;    
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background:#2187e7b3 ;
+}
+.Photoshop{
+    width: 80%;
+    animation: Photoshop 2s;
+}
+.Java{
+    width: 60%;
+    animation: Java 2s; 
+}
+.AutoCad{
+width: 75% ;
+animation: Autocad 2s;
+}
+
+
+@keyframes Photoshop{
+    0%{width: 0%
+    }
+    100%{
+        width: 80%;
+    }   
+}
+@keyframes Java{
+    0%{width: 0%
+    }
+    100%{
+        width: 80%;
+    }   
+}
+@keyframes AutoCad{
+    0%{width: 0%
+    }
+    100%{
+        width: 80%;
+    }   
+}
+
+.Anglais{
+    width: 75%;
+    animation: Photoshop 2s;
+}
+.Allemand{
+    width: 50%;
+    animation: Java 2s; 
+}
+
+@keyframes Anglais{
+    0%{width: 0%
+    }
+    100%{
+        width: 80%;
+    }   
+}
+@keyframes allemand{
+    0%{width: 0%
+    }
+    100%{
+        width: 80%;
+    }   
+}
+
+.langues{
+    width: 180px;
+    margin: 30px ;
+    color: black;
+    padding-left: 60px;
+}
+
+.section-droite{
+   
+    width: 70%;
+    background-color:rgb(127, 168, 255);
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+     
+}
+h4{
+    border-bottom: 2px solid blue;
+}
+.footer{
+    display: block;
+    background-color: cornflowerblue;
+    background-position: center;
+    text-align: center;
+    font-size: 10px;
+}
